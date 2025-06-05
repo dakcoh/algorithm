@@ -10,11 +10,10 @@ public class Main {
         while (N > 0) {
             if (N >= 3) {
                 N = N - 3;
-                win = win.equals("SK") ? "CY" : "SK";
             } else {
                 N = N - 1;
-                win = win.equals("SK") ? "CY" : "SK";
             }
+            win = win.equals("SK") ? "CY" : "SK";
         }
         System.out.println(win);
     }
